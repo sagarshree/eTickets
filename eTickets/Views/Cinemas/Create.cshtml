@@ -53,9 +53,9 @@
     <script>
         $(document).ready(function () {
             let output = document.getElementById('ProfilePicturePreview');
-            output.src = $("#ProfilePictureURL").val();
+            output.src = $("#Logo").val();
         })
-        $("#ProfilePictureURL").on("change", function () {
+        $("#Logo").on("change", function () {
             let output = document.getElementById('ProfilePicturePreview');
             output.src = $(this).val();
         })

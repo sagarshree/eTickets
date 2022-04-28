@@ -9,74 +9,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e74fdae5-8f1f-4373-b23e-f66adea84c9f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/eTickets/Controllers/ActorsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Controllers/CinemasController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Controllers/MoviesController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Controllers/ProducersController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Controllers/TestController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Data/AppDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Data/AppDbInitializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Data/Base/EntityBaseRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Data/Base/IEntityBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Data/Base/IEntityBaseRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Data/Enums/MovieCategory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Data/Services/ActorsService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Data/Services/CinemasService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Data/Services/IActorsService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Data/Services/ICinemasService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Data/Services/IProducersService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Data/Services/ProducersService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Dto/MovieDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Models/Actor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Models/Actor_Movie.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Models/Cinema.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Models/Movie.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Models/Producer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Actors/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Actors/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Actors/Delete.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Actors/Details.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Actors/Details.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Actors/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Actors/Edit.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Actors/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Cinemas/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Cinemas/Create.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Cinemas/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Cinemas/Delete.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Cinemas/Details.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Cinemas/Details.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Cinemas/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Cinemas/Edit.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Cinemas/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Movies/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Producers/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Producers/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Producers/Details.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Producers/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Producers/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Shared/NotFound.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/Views/Shared/NotFound.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eTickets/sqlite.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eTickets/Data/Services/IMoviesService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eTickets/Data/Services/MoviesService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eTickets/Views/Movies/Details.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.eTickets/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.eTickets/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eTickets/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eTickets/Controllers/CinemasController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/Controllers/CinemasController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eTickets/Controllers/MoviesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/Controllers/MoviesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eTickets/Data/Base/EntityBaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/Data/Base/EntityBaseRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eTickets/Data/Base/IEntityBaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/Data/Base/IEntityBaseRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eTickets/Models/Movie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/Models/Movie.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eTickets/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eTickets/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eTickets/Views/Home/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eTickets/Views/Home/Privacy.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eTickets/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eTickets/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eTickets/eTickets.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/eTickets.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eTickets/Views/Cinemas/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/Views/Cinemas/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eTickets/Views/Cinemas/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/Views/Cinemas/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eTickets/Views/Cinemas/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/Views/Cinemas/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eTickets/Views/Cinemas/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/Views/Cinemas/Edit.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eTickets/Views/Movies/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/Views/Movies/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eTickets/obj/Debug/net6.0/eTickets.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/obj/Debug/net6.0/eTickets.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eTickets/obj/Debug/net6.0/eTickets.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/obj/Debug/net6.0/eTickets.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eTickets/obj/Debug/net6.0/eTickets.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/obj/Debug/net6.0/eTickets.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eTickets/obj/eTickets.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/obj/eTickets.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eTickets/obj/eTickets.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/obj/eTickets.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eTickets/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eTickets/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eTickets/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eTickets/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eTickets/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/wwwroot/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eTickets/sqlite.db" beforeDir="false" afterPath="$PROJECT_DIR$/eTickets/sqlite.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,9 +47,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/eTickets/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d679963e87776f5ed798c5c9b2be3eb618b52efb87d99ad3f9d893c34721016/WebApplication.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6d91921f1921869d264c6f3f6e3870a127baa8b9364a7a39ffea392ac933d38/HostingAbstractionsHostExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/eTickets/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/de50379026b548db94368edfb2d102c01ffb80/db/2ca86b5e/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -115,7 +70,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="sqlite&#10;mongo" />
+    <property name="DatabaseDriversLRU" value="mongo&#10;sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -189,6 +144,7 @@
       <workItem from="1646380832799" duration="2640000" />
       <workItem from="1646398255450" duration="3800000" />
       <workItem from="1646578037791" duration="2108000" />
+      <workItem from="1651059489758" duration="9431000" />
     </task>
     <task id="LOCAL-00001" summary="project setup">
       <created>1638024394782</created>
@@ -221,24 +177,5 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="project setup" />
     <option name="LAST_COMMIT_MESSAGE" value="project setup" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/eTickets/Controllers/CinemasController.cs</url>
-          <line>25</line>
-          <properties documentPath="$PROJECT_DIR$/eTickets/Controllers/CinemasController.cs" initialLine="25" containingFunctionPresentation="method 'Create'">
-            <startOffsets>
-              <option value="647" />
-            </startOffsets>
-            <endOffsets>
-              <option value="648" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

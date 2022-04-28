@@ -7,7 +7,7 @@
 <div class="row text">
     <div class="col-md-8 offset-2">
         <p>
-            <h1>Edit Actor</h1>
+            <h1>Edit Cinema</h1>
         </p>
         <div class="row">
             <div class="col-md-8 offset-2">
@@ -15,7 +15,7 @@
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
                     <div class="form-group text-center">
-                        <img class="rounded-circle" id="ProfilePicturePreview"  style="width: 100px;height: 100px" />
+                        <img class="rounded-circle" id="CinemaLogoPreview"  style="width: 100px;height: 100px" />
                     </div>
                     <br class="p-1"/>
                     <div class="form-group">
@@ -52,11 +52,11 @@
 @section Scripts{ 
     <script>
         $(document).ready(function () {
-            let output = document.getElementById('ProfilePicturePreview');
-            output.src = $("#ProfilePictureURL").val();
+            let output = document.getElementById('CinemaLogoPreview');
+            output.src = $("#Logo").val();
         })
-        $("#ProfilePictureURL").on("change", function () {
-            let output = document.getElementById('ProfilePicturePreview');
+        $("#Logo").on("change", function () {
+            let output = document.getElementById('CinemaLogoPreview');
             output.src = $(this).val();
         })
     </script>

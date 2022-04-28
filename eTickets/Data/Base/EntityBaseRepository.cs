@@ -1,3 +1,4 @@
+using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
@@ -15,6 +16,13 @@ public class EntityBaseRepository<T> : IEntityBaseRepository<T> where T : class,
     {
         var result = await _dbContext.Set<T>().ToListAsync();
         return result;
+    }
+
+    public async Task<IEnumerable<T>> GetAllAsync(params Expression<Func<T, object>>[] includeProperties)
+    {
+        IQueryable<T> query = _dbContext.Set<T>();
+        query = includeProperties.Aggregate(query, (current, includeProperty) => current.Include(includeProperty));
+        return await query.ToListAsync();
     }
 
     public async Task<T?> GetByIdAsync(int id)=> await _dbContext.Set<T>().FirstOrDefaultAsync(x => x.Id == id);

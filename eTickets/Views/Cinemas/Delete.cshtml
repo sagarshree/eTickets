@@ -21,7 +21,7 @@
 
                                         <div class="form-group">
                                             <label asp-for="Logo" class="control-label"></label>
-                                            <input asp-for="Name" class="form-control" readonly />
+                                            <input asp-for="Logo" class="form-control" readonly />
                         
                                         </div>
                                         <br class="p-1"/>
@@ -61,8 +61,8 @@
 @section Scripts{ 
     <script>
         $(document).ready(function () {
-            var output = document.getElementById('ProfilePicturePreview');
-            output.src = $("#ProfilePictureURL").val();
+            const output = document.getElementById('ProfilePicturePreview');
+            output.src = $("#Logo").val();
         })
         
     </script>
